@@ -40,6 +40,13 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 5rem;
+  /* iOS smooth scroll fallback */
+  -webkit-overflow-scrolling: touch;
+}
+
+body {
+  /* Safe area background for iOS notch and status bar */
+  background-color: var(--color-coffee-800);
 }
 
 /* Selection color matching brand */

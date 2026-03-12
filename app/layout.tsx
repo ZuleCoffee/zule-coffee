@@ -52,9 +52,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
+    <html lang="es" className="bg-coffee-800">
       <body
-        className={`${cormorant.variable} ${dmSans.variable} font-body antialiased`}
+        className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-cream-50`}
+        style={{ WebkitOverflowScrolling: 'touch' }}
       >
         {children}
       </body>
