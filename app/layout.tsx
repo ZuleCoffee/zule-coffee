@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -16,7 +16,11 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-
+// This tells Safari to push the webpage into the notch/status bar area
+export const viewport: Viewport = {
+  themeColor: "#4A2C2A", 
+  viewportFit: "cover", 
+};
 
 export const metadata: Metadata = {
   title: "Zule Coffee | UPB Campus Laureles",
