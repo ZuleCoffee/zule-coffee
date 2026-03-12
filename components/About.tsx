@@ -29,11 +29,7 @@ export default function About() {
             {/* Block 1: The father's legacy */}
             <div className="relative pl-6 border-l-2 border-amber-500/30">
               <p className="text-base leading-relaxed text-coffee-600 md:text-lg">
-                Zule Coffee nació como un homenaje. En 2016, Denys Zuleta perdió
-                a su padre, un caficultor colombiano que le enseñó que en cada
-                grano hay un sueño. Ese dolor se convirtió en propósito: honrar
-                su legado llevando café de especialidad a las manos de quienes
-                saben apreciarlo.
+               Zule Coffee nació de un sueño compartido: un café donde converjan el café colombiano de especialidad, los libros y la comunidad. Lo que comenzó como un café móvil en las calles de Medellín hoy es el Café Librería Fórum, un espacio para permitirse soñar.
               </p>
             </div>
 
