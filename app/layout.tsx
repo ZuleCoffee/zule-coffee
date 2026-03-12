@@ -16,8 +16,10 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
+
+
 export const metadata: Metadata = {
-  title: "Zule Coffee — Café de Especialidad en Medellín | UPB Campus Laureles",
+  title: "Zule Coffee | UPB Campus Laureles",
   description:
     "Café de especialidad colombiano, repostería artesanal y cultura en el corazón de la UPB, Medellín. Café Librería Fórum y La Manzana café móvil. Catering para eventos.",
   keywords: [
@@ -53,9 +55,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="bg-coffee-800">
-      <head>
-        <meta name="theme-color" content="#4A2C2A" />
-      </head>
       <body
         className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-coffee-800`}
         style={{ WebkitOverflowScrolling: 'touch' }}
