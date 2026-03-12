@@ -54,10 +54,12 @@ export default function RootLayout({
   return (
     <html lang="es" className="bg-coffee-800">
       <body
-        className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-cream-50`}
+        className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-coffee-800`}
         style={{ WebkitOverflowScrolling: 'touch' }}
       >
-        {children}
+        <div className="bg-cream-50 min-h-screen w-full">
+          {children}
+        </div>
       </body>
     </html>
   );
