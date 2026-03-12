@@ -5,7 +5,7 @@
    ============================================ */
 :root {
     /* Exact hex for coffee-800 */
-    --coffee-800: #4A2C2A; 
+    background: #4A2C2A; 
 }
 @theme inline {
   /* Color palette — warm, artisanal, Colombian coffee */
