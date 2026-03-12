@@ -32,24 +32,24 @@ export default function Purpose() {
             Nuestro Propósito
           </span>
           <h2 className="mt-4 font-display text-4xl font-light tracking-tight text-cream-50 sm:text-5xl md:text-6xl">
-            Más que café —<br className="hidden sm:block" /> un proyecto con
+            Más que café,<br className="hidden sm:block" /> un proyecto con
             alma
           </h2>
         </div>
 
         {/* Three pillars */}
-        <div className="grid gap-8 md:grid-cols-3 md:gap-12">
+        <div className="flex flex-col md:flex-row md:justify-between gap-6 md:gap-0">
           {pillars.map((pillar) => {
             const Icon = pillar.icon;
             return (
-              <div key={pillar.title} className="text-center md:text-left">
-                <div className="mx-auto mb-6 flex h-14 w-14 items-center justify-center rounded-sm bg-amber-500/10 md:mx-0">
+              <div key={pillar.title} className="text-center md:text-left w-full md:w-72 px-2 py-4 md:py-0">
+                <div className="mx-auto mb-4 flex h-12 w-12 items-center justify-center rounded-sm bg-amber-500/10 md:mx-0 md:mb-6 md:h-14 md:w-14">
                   <Icon size={24} className="text-amber-400" />
                 </div>
-                <h3 className="font-display text-2xl font-semibold text-cream-50">
+                <h3 className="font-display text-xl md:text-2xl font-semibold text-cream-50">
                   {pillar.title}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-coffee-300">
+                <p className="mt-2 md:mt-3 text-sm leading-relaxed text-coffee-300">
                   {pillar.description}
                 </p>
               </div>

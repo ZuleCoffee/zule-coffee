@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="relative min-h-screen overflow-hidden bg-cream-50"
+      className="relative min-h-[80vh] md:min-h-screen overflow-hidden bg-cream-50"
     >
       {/* Background gradient placeholder simulating hero photography */}
       <div className="absolute inset-0">
@@ -24,10 +24,10 @@ export default function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 mx-auto flex min-h-screen max-w-7xl flex-col justify-center px-4 sm:px-6 lg:px-8">
-        <div className="max-w-3xl pt-20 pb-16 md:pt-0">
+      <div className="relative z-10 mx-auto flex min-h-[80vh] md:min-h-screen max-w-7xl flex-col justify-center px-4 sm:px-6 lg:px-8">
+        <div className="max-w-3xl pt-8 pb-8 md:pt-0">
           {/* Award badge */}
-          <div className="mb-8 inline-flex items-center gap-2 rounded-sm border border-amber-500/30 bg-amber-500/10 px-4 py-2 backdrop-blur-sm">
+          <div className="mb-6 md:mb-4 inline-flex items-center gap-2 rounded-sm border border-amber-500/30 bg-amber-500/10 px-4 py-2 backdrop-blur-sm">
             <Award size={16} className="text-amber-400" />
             <span className="text-xs font-medium tracking-wide text-amber-400 uppercase">
               Premio Famiempresario Interactuar 2025
@@ -43,13 +43,13 @@ export default function Hero() {
           </h1>
 
           {/* Subheadline */}
-          <p className="mt-6 max-w-xl text-lg leading-relaxed text-coffee-200 sm:text-xl">
-            Café de especialidad, repostería artesanal y cultura — en el
+          <p className="mt-6 md:mt-4 max-w-xl text-base leading-relaxed text-coffee-200 sm:text-xl">
+            Café de especialidad, repostería artesanal y cultura en el
             corazón de la UPB, Medellín.
           </p>
 
           {/* CTAs */}
-          <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+          <div className="mt-8 md:mt-6 flex flex-col gap-3 sm:flex-row">
             <a
               href="#menu"
               className="inline-flex items-center justify-center rounded-sm bg-amber-500 px-8 py-3.5 text-sm font-semibold tracking-wide text-coffee-900 uppercase transition-colors hover:bg-amber-400"
@@ -63,16 +63,11 @@ export default function Hero() {
               Nuestra historia
             </a>
           </div>
-
-          {/* Attribution */}
-          <p className="mt-12 text-sm italic text-coffee-300">
-            — Denys Zuleta, fundadora de Zule Coffee
-          </p>
         </div>
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2">
+      <div className="absolute bottom-4 left-1/2 z-10 -translate-x-1/2">
         <div className="flex flex-col items-center gap-2">
           <span className="text-xs tracking-widest text-coffee-300 uppercase">
             Descubre

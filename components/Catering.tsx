@@ -27,14 +27,14 @@ export default function Catering() {
           {/* Left column — Copy */}
           <div>
             <span className="text-xs font-semibold tracking-[0.2em] text-amber-500 uppercase">
-              Catering
+              Servicios
             </span>
             <h2 className="mt-4 font-display text-4xl font-light tracking-tight text-coffee-900 sm:text-5xl">
               Llevamos Zule Coffee a tu evento
             </h2>
             <p className="mt-6 text-base leading-relaxed text-coffee-600 md:text-lg">
               Ya sea un coffee break corporativo, una feria universitaria o una
-              celebración especial — llevamos nuestro café de especialidad y
+              celebración especial, llevamos nuestro café de especialidad y
               repostería artesanal directamente a tu evento.
             </p>
             <p className="mt-4 text-base leading-relaxed text-coffee-600 md:text-lg">
@@ -47,7 +47,7 @@ export default function Catering() {
             <div className="mt-8 hidden aspect-[3/2] overflow-hidden rounded-sm bg-gradient-to-br from-amber-500 via-coffee-600 to-coffee-800 md:block">
               <div className="flex h-full items-center justify-center">
                 <span className="font-display text-xl font-light italic text-cream-50/30">
-                  Catering & Eventos
+                  Servicio & Eventos
                 </span>
               </div>
             </div>
@@ -185,9 +185,8 @@ export default function Catering() {
                 {/* Submit button */}
                 <button
                   type="submit"
-                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-coffee-800 px-6 py-3 text-sm font-semibold text-cream-50 transition-colors hover:bg-coffee-700"
+                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-sm bg-coffee-800 px-6 py-3 text-sm font-semibold text-cream-50 transition-colors duration-300 hover:bg-coffee-600 cursor-pointer"
                 >
-                  <Send size={14} />
                   Solicitar cotización
                 </button>
               </form>

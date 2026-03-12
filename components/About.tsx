@@ -1,7 +1,7 @@
 import { Coffee, BookOpen } from "lucide-react";
 
 const timelineEvents = [
-  { year: "2016", label: "Legado del padre caficultor" },
+  { year: "2016", label: "Legado" },
   { year: "2021", label: "Nace Zule Coffee" },
   { year: "2022", label: "Café Librería Fórum en UPB" },
   { year: "2025", label: "Premio Famiempresario Interactuar" },
@@ -13,7 +13,7 @@ export default function About() {
     <section id="about" className="bg-cream-50 py-20 md:py-32">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         {/* Section header */}
-        <div className="mb-16 md:mb-24">
+        <div className="mb-12 md:mb-18">
           <span className="text-xs font-semibold tracking-[0.2em] text-amber-500 uppercase">
             Nuestra Historia
           </span>
@@ -41,8 +41,8 @@ export default function About() {
             <div className="relative pl-6 border-l-2 border-leaf-600/30">
               <p className="text-base leading-relaxed text-coffee-600 md:text-lg">
                 Lo que empezó en 2021 como un café móvil llamado &quot;La
-                Manzana&quot; — recorriendo ferias y campus con una bicicleta y
-                un sueño — hoy es el{" "}
+                Manzana&quot;, recorriendo ferias y campus con una bicicleta y
+                un sueño. Hoy es el{" "}
                 <strong className="font-semibold text-coffee-800">
                   Café Librería Fórum
                 </strong>
@@ -92,15 +92,15 @@ export default function About() {
               >
                 {/* Connector line (hidden on first item on mobile) */}
                 {index > 0 && (
-                  <div className="absolute left-0 top-6 hidden h-px w-full -translate-x-full bg-coffee-200 sm:block" />
+                  <div className="absolute top-1/2 left-0 -translate-y-1/2 -translate-x-full hidden w-full h-px bg-coffee-200 sm:block" />
                 )}
                 <div className="font-display text-3xl font-semibold text-amber-500 md:text-4xl">
                   {event.year}
                 </div>
-                <div className="mt-2 h-px w-8 mx-auto bg-coffee-200" />
                 <p className="mt-3 text-sm text-coffee-500">
                   {event.label}
                 </p>
+                <div className="mt-3 h-px w-8 mx-auto bg-coffee-200" />
               </div>
             ))}
           </div>

@@ -96,7 +96,7 @@ export default function Locations() {
               </p>
 
               <p className="mt-4 text-sm leading-relaxed text-coffee-600">
-                Donde comenzó todo. Nos llevamos a tu evento el mismo café con
+                Donde comenzó todo. Llevamos a tu evento el mismo café con
                 el que soñamos.
               </p>
 
