@@ -1,4 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+# Zule Coffee — Web
+
+Sitio web oficial de Zule Coffee, cafetería de especialidad y espacio cultural en la UPB, Medellín.
+
+## Contexto
+
+Este proyecto es el código fuente del sitio web de Zule Coffee. Incluye:
+- Página principal con historia, menú, ubicaciones y propósito social.
+- Diseño responsive optimizado para mobile y desktop.
+- Componentes reutilizables en React/Next.js.
+- Estilos con Tailwind CSS y fuentes personalizadas.
+
+## Instrucciones de instalación y desarrollo
+
+1. **Clona el repositorio:**
+	```bash
+	git clone https://github.com/ZuleCoffee/zule-coffee.git
+	cd zule-coffee
+	```
+
+2. **Instala las dependencias:**
+	```bash
+	npm install
+	# o
+	yarn install
+	```
+
+3. **Inicia el servidor de desarrollo:**
+	```bash
+	npm run dev
+	# o
+	yarn dev
+	```
+
+4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
+
+## Estructura principal
+
+- `app/` — Páginas y layout principal.
+- `components/` — Componentes reutilizables (Navbar, Footer, Hero, etc).
+- `public/` — Imágenes y recursos estáticos.
+- `styles/` — Estilos globales (si aplica).
+
+## Despliegue
+
+Puedes desplegar fácilmente en Vercel, Netlify o tu hosting favorito compatible con Next.js.
+
+---
+
+Zule Coffee © 2025 — Hecho con ❤️ en Medellín
 
 ## Getting Started
 
