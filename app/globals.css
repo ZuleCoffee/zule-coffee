@@ -3,7 +3,10 @@
 /* ============================================
    Zule Coffee — Global Design Tokens & Styles
    ============================================ */
-
+:root {
+    /* Exact hex for coffee-800 */
+    --coffee-800: #4A2C2A; 
+}
 @theme inline {
   /* Color palette — warm, artisanal, Colombian coffee */
   --color-coffee-900: #3B2218;
