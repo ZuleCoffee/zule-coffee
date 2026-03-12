@@ -1,4 +1,4 @@
-import type { Metadata, Viewport } from "next";
+import type { Metadata } from "next";
 import { Cormorant_Garamond, DM_Sans } from "next/font/google";
 import "./globals.css";
 
@@ -15,12 +15,6 @@ const dmSans = DM_Sans({
   weight: ["300", "400", "500", "600", "700"],
   display: "swap",
 });
-
-// This tells Safari to push the webpage into the notch/status bar area
-export const viewport: Viewport = {
-  themeColor: "#4A2C2A", 
-  viewportFit: "cover", 
-};
 
 export const metadata: Metadata = {
   title: "Zule Coffee | UPB Campus Laureles",
@@ -59,6 +53,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="bg-coffee-800">
+      <head>
+        <meta
+					name='viewport'
+					content='width=device-width, initial-scale=1.0, viewport-fit=cover'
+				/>
+      </head>
       <body
         className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-coffee-800`}
         style={{ WebkitOverflowScrolling: 'touch' }}
