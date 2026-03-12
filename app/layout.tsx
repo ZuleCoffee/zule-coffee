@@ -53,6 +53,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" className="bg-coffee-800">
+      <head>
+        <meta name="theme-color" content="#4A2C2A" />
+      </head>
       <body
         className={`${cormorant.variable} ${dmSans.variable} font-body antialiased bg-coffee-800`}
         style={{ WebkitOverflowScrolling: 'touch' }}
